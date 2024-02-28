@@ -1,0 +1,80 @@
+2024-02-22T04:40:51+00:00 CRITICAL Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bombasel/cotizaciones.bombasellos.com.mx/wp-content/themes/astra/page-inicio.php:5
+Stack trace:
+#0 /home/bombasel/cotizaciones.bombasellos.com.mx/wp-includes/template-loader.php(106): include()
+#1 /home/bombasel/cotizaciones.bombasellos.com.mx/wp-blog-header.php(19): require_once('/home/bombasel/...')
+#2 /home/bombasel/cotizaciones.bombasellos.com.mx/index.php(17): require('/home/bombasel/...')
+#3 {main}
+  thrown in /home/bombasel/cotizaciones.bombasellos.com.mx/wp-content/themes/astra/page-inicio.php on line 5
+
+2024-02-22T04:41:03+00:00 CRITICAL Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bombasel/cotizaciones.bombasellos.com.mx/wp-content/themes/astra/page-inicio.php:5
+Stack trace:
+#0 /home/bombasel/cotizaciones.bombasellos.com.mx/wp-includes/template-loader.php(106): include()
+#1 /home/bombasel/cotizaciones.bombasellos.com.mx/wp-blog-header.php(19): require_once('/home/bombasel/...')
+#2 /home/bombasel/cotizaciones.bombasellos.com.mx/index.php(17): require('/home/bombasel/...')
+#3 {main}
+  thrown in /home/bombasel/cotizaciones.bombasellos.com.mx/wp-content/themes/astra/page-inicio.php on line 5
+
+2024-02-22T04:41:08+00:00 CRITICAL Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bombasel/cotizaciones.bombasellos.com.mx/wp-content/themes/astra/page-inicio.php:5
+Stack trace:
+#0 /home/bombasel/cotizaciones.bombasellos.com.mx/wp-includes/template-loader.php(106): include()
+#1 /home/bombasel/cotizaciones.bombasellos.com.mx/wp-blog-header.php(19): require_once('/home/bombasel/...')
+#2 /home/bombasel/cotizaciones.bombasellos.com.mx/index.php(17): require('/home/bombasel/...')
+#3 {main}
+  thrown in /home/bombasel/cotizaciones.bombasellos.com.mx/wp-content/themes/astra/page-inicio.php on line 5
+
+2024-02-22T04:41:14+00:00 CRITICAL Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bombasel/cotizaciones.bombasellos.com.mx/wp-content/themes/astra/page-inicio.php:5
+Stack trace:
+#0 /home/bombasel/cotizaciones.bombasellos.com.mx/wp-includes/template-loader.php(106): include()
+#1 /home/bombasel/cotizaciones.bombasellos.com.mx/wp-blog-header.php(19): require_once('/home/bombasel/...')
+#2 /home/bombasel/cotizaciones.bombasellos.com.mx/index.php(17): require('/home/bombasel/...')
+#3 {main}
+  thrown in /home/bombasel/cotizaciones.bombasellos.com.mx/wp-content/themes/astra/page-inicio.php on line 5
+
+2024-02-22T04:41:22+00:00 CRITICAL Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bombasel/cotizaciones.bombasellos.com.mx/wp-content/themes/astra/page-inicio.php:5
+Stack trace:
+#0 /home/bombasel/cotizaciones.bombasellos.com.mx/wp-includes/template-loader.php(106): include()
+#1 /home/bombasel/cotizaciones.bombasellos.com.mx/wp-blog-header.php(19): require_once('/home/bombasel/...')
+#2 /home/bombasel/cotizaciones.bombasellos.com.mx/index.php(17): require('/home/bombasel/...')
+#3 {main}
+  thrown in /home/bombasel/cotizaciones.bombasellos.com.mx/wp-content/themes/astra/page-inicio.php on line 5
+
+2024-02-22T04:49:21+00:00 CRITICAL Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bombasel/cotizaciones.bombasellos.com.mx/wp-content/themes/astra/page-inicio.php:5
+Stack trace:
+#0 /home/bombasel/cotizaciones.bombasellos.com.mx/wp-includes/template-loader.php(106): include()
+#1 /home/bombasel/cotizaciones.bombasellos.com.mx/wp-blog-header.php(19): require_once('/home/bombasel/...')
+#2 /home/bombasel/cotizaciones.bombasellos.com.mx/index.php(17): require('/home/bombasel/...')
+#3 {main}
+  thrown in /home/bombasel/cotizaciones.bombasellos.com.mx/wp-content/themes/astra/page-inicio.php on line 5
+
+2024-02-22T04:49:26+00:00 CRITICAL Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bombasel/cotizaciones.bombasellos.com.mx/wp-content/themes/astra/page-inicio.php:5
+Stack trace:
+#0 /home/bombasel/cotizaciones.bombasellos.com.mx/wp-includes/template-loader.php(106): include()
+#1 /home/bombasel/cotizaciones.bombasellos.com.mx/wp-blog-header.php(19): require_once('/home/bombasel/...')
+#2 /home/bombasel/cotizaciones.bombasellos.com.mx/index.php(17): require('/home/bombasel/...')
+#3 {main}
+  thrown in /home/bombasel/cotizaciones.bombasellos.com.mx/wp-content/themes/astra/page-inicio.php on line 5
+
+2024-02-22T04:49:59+00:00 CRITICAL Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bombasel/cotizaciones.bombasellos.com.mx/wp-content/themes/astra/page-inicio.php:5
+Stack trace:
+#0 /home/bombasel/cotizaciones.bombasellos.com.mx/wp-includes/template-loader.php(106): include()
+#1 /home/bombasel/cotizaciones.bombasellos.com.mx/wp-blog-header.php(19): require_once('/home/bombasel/...')
+#2 /home/bombasel/cotizaciones.bombasellos.com.mx/index.php(17): require('/home/bombasel/...')
+#3 {main}
+  thrown in /home/bombasel/cotizaciones.bombasellos.com.mx/wp-content/themes/astra/page-inicio.php on line 5
+
+2024-02-22T04:50:49+00:00 CRITICAL Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bombasel/cotizaciones.bombasellos.com.mx/wp-content/themes/astra/page-inicio.php:5
+Stack trace:
+#0 /home/bombasel/cotizaciones.bombasellos.com.mx/wp-includes/template-loader.php(106): include()
+#1 /home/bombasel/cotizaciones.bombasellos.com.mx/wp-blog-header.php(19): require_once('/home/bombasel/...')
+#2 /home/bombasel/cotizaciones.bombasellos.com.mx/index.php(17): require('/home/bombasel/...')
+#3 {main}
+  thrown in /home/bombasel/cotizaciones.bombasellos.com.mx/wp-content/themes/astra/page-inicio.php on line 5
+
+2024-02-22T06:19:51+00:00 CRITICAL Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bombasel/cotizaciones.bombasellos.com.mx/wp-content/themes/astra/page-inicio.php:5
+Stack trace:
+#0 /home/bombasel/cotizaciones.bombasellos.com.mx/wp-includes/template-loader.php(106): include()
+#1 /home/bombasel/cotizaciones.bombasellos.com.mx/wp-blog-header.php(19): require_once('/home/bombasel/...')
+#2 /home/bombasel/cotizaciones.bombasellos.com.mx/index.php(17): require('/home/bombasel/...')
+#3 {main}
+  thrown in /home/bombasel/cotizaciones.bombasellos.com.mx/wp-content/themes/astra/page-inicio.php on line 5
+

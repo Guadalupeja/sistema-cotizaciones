@@ -1,0 +1,1476 @@
+2024-01-10T21:24:12+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\functions.php on line 4
+
+2024-01-10T21:24:13+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\functions.php on line 4
+
+2024-01-10T21:24:49+00:00 CRITICAL Uncaught Error: Call to a member function __() on string in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\functions.php:4
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\class-wp-hook.php(324): sistemacotizaciones_menu('')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-settings.php(643): do_action('init')
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-config.php(103): require_once('C:\\Users\\Lupit\\...')
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-load.php(50): require_once('C:\\Users\\Lupit\\...')
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\Lupit\\...')
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\Lupit\\...')
+#8 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\functions.php on line 4
+
+2024-01-10T21:24:50+00:00 CRITICAL Uncaught Error: Call to a member function __() on string in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\functions.php:4
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\class-wp-hook.php(324): sistemacotizaciones_menu('')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-settings.php(643): do_action('init')
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-config.php(103): require_once('C:\\Users\\Lupit\\...')
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-load.php(50): require_once('C:\\Users\\Lupit\\...')
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Lupit\\...')
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#8 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\functions.php on line 4
+
+2024-01-17T21:50:10+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-formulario-final.php on line 7
+
+2024-01-23T19:30:02+00:00 CRITICAL syntax error, unexpected identifier "esc_html", expecting "," or ";" in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-formulario-final.php on line 59
+
+2024-01-23T19:30:27+00:00 CRITICAL syntax error, unexpected identifier "esc_html", expecting "," or ";" in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-formulario-final.php on line 59
+
+2024-01-23T19:30:37+00:00 CRITICAL syntax error, unexpected identifier "esc_html", expecting "," or ";" in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-formulario-final.php on line 59
+
+2024-01-23T21:54:44+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:245
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 245
+
+2024-01-23T21:56:22+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:245
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 245
+
+2024-01-23T23:04:25+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:245
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 245
+
+2024-01-23T23:15:38+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:244
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 244
+
+2024-01-23T23:20:07+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:244
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 244
+
+2024-01-23T23:20:16+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:244
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 244
+
+2024-01-23T23:21:13+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:244
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 244
+
+2024-01-23T23:24:38+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:244
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 244
+
+2024-01-23T23:25:02+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:244
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 244
+
+2024-01-23T23:25:15+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:244
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 244
+
+2024-01-23T23:25:24+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:244
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 244
+
+2024-01-23T23:25:55+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:244
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 244
+
+2024-01-23T23:26:07+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:244
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 244
+
+2024-01-23T23:26:20+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:244
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 244
+
+2024-01-23T23:28:53+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:244
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 244
+
+2024-01-24T17:27:41+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:244
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 244
+
+2024-01-24T17:36:50+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:244
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 244
+
+2024-01-24T17:38:29+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:244
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 244
+
+2024-01-24T17:39:46+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:244
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 244
+
+2024-01-24T17:45:02+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:244
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 244
+
+2024-01-24T17:47:03+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:244
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 244
+
+2024-01-24T17:47:39+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:244
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 244
+
+2024-01-24T18:07:09+00:00 CRITICAL Uncaught Error: Call to undefined method Dompdf\Adapter\CPDF::getHtmlContainer() in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:257
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 257
+
+2024-01-25T18:26:52+00:00 CRITICAL syntax error, unexpected token ";" in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 11
+
+2024-01-25T19:14:55+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 116
+
+2024-01-25T20:32:57+00:00 CRITICAL syntax error, unexpected token "use" in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 176
+
+2024-01-30T18:34:08+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:41
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\TableCell->reflow(NULL)
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(57): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\TableRow->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableRowGroup.php(48): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\TableRowGroup->reflow(Object(Dompdf\FrameDecorator\Block))
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\Block->reflow(Object(Dompdf\FrameDecorator\Block))
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\Block->reflow(NULL)
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(143): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#10 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\Page->reflow(NULL)
+#11 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(820): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#12 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php(201): Dompdf\Dompdf->render()
+#13 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#14 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#15 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#16 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 41
+
+2024-01-31T17:07:05+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php(268): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-01-31T17:18:28+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php(259): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-01-31T17:23:22+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php(259): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-01-31T17:38:26+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php(255): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-01-31T18:35:42+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php(257): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-01-31T18:58:54+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:78
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 78
+
+2024-01-31T19:00:32+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:116
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 116
+
+2024-01-31T19:03:06+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:152
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 152
+
+2024-01-31T19:07:23+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:185
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 185
+
+2024-01-31T19:08:32+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:185
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 185
+
+2024-01-31T19:09:21+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:185
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 185
+
+2024-01-31T19:12:06+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:190
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 190
+
+2024-01-31T19:14:43+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:201
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 201
+
+2024-01-31T19:16:32+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:236
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 236
+
+2024-01-31T19:26:10+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:231
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 231
+
+2024-01-31T19:44:01+00:00 CRITICAL syntax error, unexpected token "endif", expecting end of file in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 216
+
+2024-01-31T20:11:30+00:00 CRITICAL syntax error, unexpected identifier "alt", expecting "," or ";" in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 113
+
+2024-02-01T19:41:39+00:00 CRITICAL Uncaught Error: Class "Dompdf\Options" not found in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:258
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 258
+
+2024-02-01T19:42:01+00:00 CRITICAL Uncaught Error: Class "Dompdf\Options" not found in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:258
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 258
+
+2024-02-01T19:42:06+00:00 CRITICAL Uncaught Error: Class "Dompdf\Options" not found in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:258
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 258
+
+2024-02-01T19:43:34+00:00 CRITICAL Uncaught Error: Class "Dompdf\Options" not found in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php:258
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\page-cotizacion-bsh.php on line 258
+
+2024-02-08T20:00:37+00:00 CRITICAL Cannot use Dompdf\Dompdf as Dompdf because the name is already in use in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php on line 238
+
+2024-02-08T20:03:01+00:00 CRITICAL Cannot use Dompdf\Dompdf as Dompdf because the name is already in use in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php on line 238
+
+2024-02-08T20:04:51+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(257): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-08T20:37:20+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(220): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-08T20:38:13+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(220): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-08T20:57:59+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(237): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-08T21:04:59+00:00 CRITICAL Uncaught Error: Call to undefined method Dompdf\Dompdf::get_error() in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php:221
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php on line 221
+
+2024-02-08T21:43:36+00:00 CRITICAL syntax error, unexpected token "*", expecting end of file in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php on line 29
+
+2024-02-08T21:50:29+00:00 CRITICAL syntax error, unexpected variable "$subtotal_limitado" in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php on line 181
+
+2024-02-08T23:47:41+00:00 CRITICAL syntax error, unexpected single-quoted string "<pre>" in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php on line 177
+
+2024-02-09T01:21:03+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(NULL)
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(56): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableRow->reflow(Object(Dompdf\FrameDecorator\Block))
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(229): Dompdf\Dompdf->render()
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#10 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#11 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#12 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-09T21:28:26+00:00 CRITICAL syntax error, unexpected token "var" in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\functions.php on line 322
+
+2024-02-09T21:28:29+00:00 CRITICAL syntax error, unexpected token "var" in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\functions.php on line 322
+
+2024-02-09T21:29:51+00:00 CRITICAL syntax error, unexpected token "var" in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\functions.php on line 322
+
+2024-02-09T21:31:53+00:00 CRITICAL syntax error, unexpected token "var" in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\functions.php on line 322
+
+2024-02-09T21:32:30+00:00 CRITICAL syntax error, unexpected token "var" in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\functions.php on line 322
+
+2024-02-09T21:32:31+00:00 CRITICAL syntax error, unexpected token "var" in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\functions.php on line 322
+
+2024-02-09T21:47:15+00:00 CRITICAL Uncaught Error: mysqli object is already closed in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario.php:101
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario.php(101): mysqli->query('SELECT MAX(foli...')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#4 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario.php on line 101
+
+2024-02-09T21:51:26+00:00 CRITICAL Uncaught Error: mysqli object is already closed in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario.php:101
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario.php(101): mysqli->query('SELECT MAX(foli...')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#4 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario.php on line 101
+
+2024-02-09T21:52:35+00:00 CRITICAL Uncaught Error: mysqli object is already closed in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario.php:101
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario.php(101): mysqli->query('SELECT MAX(foli...')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#4 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario.php on line 101
+
+2024-02-09T22:01:27+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public/wp-content/themes/sistema-cotizaciones/inc/core/class-astra-theme-options.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\functions.php:32
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-settings.php(611): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-config.php(103): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-load.php(50): require_once('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Lupit\\...')
+#4 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\functions.php on line 32
+
+2024-02-09T22:02:49+00:00 CRITICAL Uncaught Error: mysqli object is already closed in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario.php:101
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario.php(101): mysqli->query('SELECT MAX(foli...')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#4 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario.php on line 101
+
+2024-02-09T22:03:18+00:00 CRITICAL Uncaught Error: mysqli object is already closed in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario.php:101
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario.php(101): mysqli->query('SELECT MAX(foli...')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#4 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario.php on line 101
+
+2024-02-09T22:03:39+00:00 CRITICAL Uncaught Error: mysqli object is already closed in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario.php:101
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario.php(101): mysqli->query('SELECT MAX(foli...')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#4 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario.php on line 101
+
+2024-02-09T22:05:24+00:00 CRITICAL Uncaught Error: mysqli object is already closed in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario.php:101
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario.php(101): mysqli->query('SELECT MAX(foli...')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#4 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario.php on line 101
+
+2024-02-09T22:12:44+00:00 CRITICAL syntax error, unexpected token "*", expecting end of file in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\sistema-cotizaciones\functions.php on line 131
+
+2024-02-12T17:49:47+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario-final.php:112
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario-final.php on line 112
+
+2024-02-12T18:02:23+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario-final.php:112
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario-final.php on line 112
+
+2024-02-12T18:02:43+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario-final.php:112
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario-final.php on line 112
+
+2024-02-12T18:03:27+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario-final.php:112
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario-final.php on line 112
+
+2024-02-13T01:08:38+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario-final.php:63
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario-final.php on line 63
+
+2024-02-13T01:09:00+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario-final.php:62
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario-final.php on line 62
+
+2024-02-13T01:17:31+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario-final.php:170
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario-final.php on line 170
+
+2024-02-13T19:08:05+00:00 CRITICAL Unmatched '}' in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario-final.php on line 76
+
+2024-02-13T19:33:03+00:00 CRITICAL Unclosed '{' on line 11 in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario-final.php on line 223
+
+2024-02-13T19:34:18+00:00 CRITICAL Unclosed '{' on line 11 in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario-final.php on line 209
+
+2024-02-13T19:34:25+00:00 CRITICAL Unclosed '{' on line 11 in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario-final.php on line 209
+
+2024-02-13T19:35:47+00:00 CRITICAL Unclosed '{' on line 11 in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario-final.php on line 203
+
+2024-02-13T19:37:45+00:00 CRITICAL Unclosed '{' on line 11 in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario-final.php on line 150
+
+2024-02-13T19:38:11+00:00 CRITICAL Unclosed '{' on line 11 in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario-final.php on line 150
+
+2024-02-13T19:38:18+00:00 CRITICAL Unclosed '{' on line 11 in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario-final.php on line 150
+
+2024-02-14T03:00:49+00:00 CRITICAL syntax error, unexpected token "if" in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-formulario-final.php on line 179
+
+2024-02-19T22:41:15+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(272): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-19T22:43:29+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(272): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-19T22:46:16+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(272): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-19T22:47:55+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(272): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-19T22:48:37+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(272): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-19T22:48:44+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(272): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-19T22:49:59+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(272): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-19T22:50:23+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(272): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-19T22:50:40+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(272): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-19T22:51:05+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(272): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-19T22:51:22+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(272): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-19T22:51:51+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(272): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-19T22:51:56+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(272): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-19T22:52:21+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(272): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-19T22:58:39+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(275): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-19T23:07:38+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(281): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-19T23:26:53+00:00 CRITICAL syntax error, unexpected token "echo", expecting "," or ";" in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php on line 251
+
+2024-02-19T23:31:21+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(256): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-19T23:35:17+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(237): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-19T23:36:46+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(237): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-19T23:37:32+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(237): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-19T23:37:51+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(237): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-19T23:46:17+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(274): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-20T00:19:30+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(271): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-20T00:42:17+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(271): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-20T00:54:00+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(271): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-20T00:57:46+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(267): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-20T00:59:05+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(267): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-20T01:03:03+00:00 CRITICAL Uncaught Error: Call to a member function get_cellmap() on null in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php:40
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(271): Dompdf\Dompdf->render()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#10 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40
+
+2024-02-20T01:08:16+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php on line 237
+
+2024-02-20T17:37:33+00:00 CRITICAL Uncaught Dompdf\Exception: Frame not found in cellmap in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Cellmap.php:341
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php(42): Dompdf\Cellmap->get_frame_position(Object(Dompdf\FrameDecorator\TableCell))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(Object(Dompdf\FrameDecorator\TableCell))
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php(95): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\TableCell))
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(NULL)
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(56): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableRow->reflow(NULL)
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableRowGroup.php(47): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableRowGroup->reflow(NULL)
+#10 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Table.php(414): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#11 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Table->reflow(Object(Dompdf\FrameDecorator\Block))
+#12 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#13 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#14 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#15 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#16 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#17 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(291): Dompdf\Dompdf->render()
+#18 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#19 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#20 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#21 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Cellmap.php on line 341
+
+2024-02-20T17:38:05+00:00 CRITICAL Uncaught Dompdf\Exception: Frame not found in cellmap in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Cellmap.php:341
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php(42): Dompdf\Cellmap->get_frame_position(Object(Dompdf\FrameDecorator\TableCell))
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(Object(Dompdf\FrameDecorator\TableCell))
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php(95): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\TableCell))
+#5 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(NULL)
+#6 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(56): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#7 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableRow->reflow(NULL)
+#8 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\TableRowGroup.php(47): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#9 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableRowGroup->reflow(NULL)
+#10 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Table.php(414): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#11 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Table->reflow(Object(Dompdf\FrameDecorator\Block))
+#12 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#13 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#14 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#15 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#16 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#17 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(291): Dompdf\Dompdf->render()
+#18 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#19 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#20 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#21 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\librerias\dompdf\vendor\dompdf\dompdf\src\Cellmap.php on line 341
+
+2024-02-21T00:23:14+00:00 CRITICAL Uncaught PhpOffice\PhpSpreadsheet\Writer\Exception: Could not open file "/Downloads/hello_world.xlsx" for writing. in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php:119
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(501): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('/Downloads/hell...')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(24): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('/Downloads/hell...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#5 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php on line 119
+
+2024-02-21T00:24:51+00:00 CRITICAL Uncaught Error: Call to undefined function get_home_path() in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:20
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 20
+
+2024-02-21T00:25:32+00:00 CRITICAL Uncaught Error: Call to undefined function get_home_path() in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:20
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 20
+
+2024-02-21T00:27:15+00:00 CRITICAL Uncaught Error: Call to undefined function get_home_path() in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:19
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 19
+
+2024-02-21T00:27:58+00:00 CRITICAL Uncaught Error: Call to undefined function get_home_path() in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:19
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 19
+
+2024-02-21T00:30:27+00:00 CRITICAL Uncaught PhpOffice\PhpSpreadsheet\Writer\Exception: Could not open file "C:/Users/Lupit/Local Sites/sistema-cotizaciones/app/public/Downloads/hello_world.xlsx" for writing. in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php:119
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(501): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('C:/Users/Lupit/...')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(29): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('C:/Users/Lupit/...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#5 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php on line 119
+
+2024-02-21T01:03:36+00:00 CRITICAL Uncaught Error: Call to undefined function get_home_path() in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:22
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 22
+
+2024-02-21T01:19:58+00:00 CRITICAL Uncaught PDOException: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:17
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(17): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(32): obtenerDatosDeLaBaseDeDatos()
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#5 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 17
+
+2024-02-21T01:20:43+00:00 CRITICAL Uncaught PDOException: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:17
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(17): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(32): obtenerDatosDeLaBaseDeDatos()
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#5 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 17
+
+2024-02-21T01:29:36+00:00 CRITICAL Uncaught PDOException: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:17
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(17): PDO->__construct('mysql:host=;dbn...', 'root', 'root')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(32): obtenerDatosDeLaBaseDeDatos()
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#5 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 17
+
+2024-02-21T01:30:09+00:00 CRITICAL Uncaught PDOException: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:17
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(17): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(32): obtenerDatosDeLaBaseDeDatos()
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#5 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 17
+
+2024-02-21T01:32:36+00:00 CRITICAL Uncaught PDOException: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:43
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(43): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(58): obtenerDatosDeLaBaseDeDatos()
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#5 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 43
+
+2024-02-21T01:33:11+00:00 CRITICAL Unclosed '{' on line 10 in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 44
+
+2024-02-21T01:36:31+00:00 CRITICAL Uncaught PDOException: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:22
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(22): PDO->__construct('mysql:host=;dbn...', 'root', 'root')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(37): obtenerDatosDeLaBaseDeDatos()
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#5 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 22
+
+2024-02-21T01:36:59+00:00 CRITICAL Uncaught PDOException: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:18
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(18): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(33): obtenerDatosDeLaBaseDeDatos()
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#5 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 18
+
+2024-02-21T01:37:58+00:00 CRITICAL Uncaught PDOException: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:18
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(18): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(33): obtenerDatosDeLaBaseDeDatos()
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#5 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 18
+
+2024-02-21T01:39:01+00:00 CRITICAL Uncaught PDOException: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:18
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(18): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(33): obtenerDatosDeLaBaseDeDatos()
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#5 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 18
+
+2024-02-21T01:40:08+00:00 CRITICAL Uncaught PDOException: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:33
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(33): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(48): obtenerDatosDeLaBaseDeDatos()
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#5 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 33
+
+2024-02-21T01:40:15+00:00 CRITICAL Uncaught PDOException: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:33
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(33): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(48): obtenerDatosDeLaBaseDeDatos()
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#5 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 33
+
+2024-02-21T01:40:27+00:00 CRITICAL Uncaught PDOException: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:33
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(33): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(48): obtenerDatosDeLaBaseDeDatos()
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#5 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 33
+
+2024-02-21T01:43:55+00:00 CRITICAL Uncaught PDOException: could not find driver in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:33
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(33): PDO->__construct('sqlsrv:Server=l...', 'root', 'root')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(48): obtenerDatosDeLaBaseDeDatos()
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#5 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 33
+
+2024-02-21T01:43:59+00:00 CRITICAL Uncaught PDOException: could not find driver in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:33
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(33): PDO->__construct('sqlsrv:Server=l...', 'root', 'root')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(48): obtenerDatosDeLaBaseDeDatos()
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#5 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 33
+
+2024-02-21T01:46:40+00:00 CRITICAL Uncaught PDOException: could not find driver in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:33
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(33): PDO->__construct('sqlsrv:Server=l...', 'root', 'root')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(48): obtenerDatosDeLaBaseDeDatos()
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#5 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 33
+
+2024-02-21T01:46:45+00:00 CRITICAL Uncaught PDOException: could not find driver in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:33
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(33): PDO->__construct('sqlsrv:Server=l...', 'root', 'root')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(48): obtenerDatosDeLaBaseDeDatos()
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#4 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#5 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 33
+
+2024-02-21T01:47:57+00:00 CRITICAL Uncaught Error: Call to undefined function sqlsrv_connect() in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:34
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(52): obtenerDatosDeLaBaseDeDatos()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#4 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 34
+
+2024-02-21T01:48:05+00:00 CRITICAL Uncaught Error: Call to undefined function sqlsrv_connect() in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:34
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(52): obtenerDatosDeLaBaseDeDatos()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#4 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 34
+
+2024-02-21T01:48:07+00:00 CRITICAL Uncaught Error: Call to undefined function sqlsrv_connect() in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:34
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(52): obtenerDatosDeLaBaseDeDatos()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#4 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 34
+
+2024-02-21T01:52:02+00:00 CRITICAL Uncaught PDOException: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:13
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(13): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#4 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 13
+
+2024-02-21T01:52:20+00:00 CRITICAL Uncaught PDOException: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:13
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(13): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#4 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 13
+
+2024-02-21T01:58:56+00:00 CRITICAL Uncaught PDOException: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:13
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php(13): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#4 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 13
+
+2024-02-21T04:31:04+00:00 CRITICAL syntax error, unexpected token "use" in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 10
+
+2024-02-21T04:32:44+00:00 CRITICAL syntax error, unexpected token "use" in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 25
+
+2024-02-21T04:37:15+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 5
+
+2024-02-21T04:37:23+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 5
+
+2024-02-21T04:42:02+00:00 CRITICAL syntax error, unexpected token "use" in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 20
+
+2024-02-21T05:11:20+00:00 CRITICAL Uncaught Error: Call to a member function fetch_assoc() on bool in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php:69
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#3 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-inicio.php on line 69
+
+2024-02-21T19:38:18+00:00 CRITICAL syntax error, unexpected token "*" in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php on line 75
+
+2024-02-22T00:02:53+00:00 CRITICAL Uncaught TypeError: reset(): Argument #1 ($array) must be of type array, null given in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php:125
+Stack trace:
+#0 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php(125): reset(NULL)
+#1 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lupit\\...')
+#2 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lupit\\...')
+#3 C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\index.php(17): require('C:\\Users\\Lupit\\...')
+#4 {main}
+  thrown in C:\Users\Lupit\Local Sites\sistema-cotizaciones\app\public\wp-content\themes\astra\page-cotizacion-bsh.php on line 125
+

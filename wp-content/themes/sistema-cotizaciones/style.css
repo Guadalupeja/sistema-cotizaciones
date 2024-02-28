@@ -1,0 +1,425 @@
+/*
+    Theme Name: sistemacotizaciones
+    Theme URI: 
+    Author: Guadalupe Juárez Arias
+    Author URI: 
+    Description: Theme Diseñado para la generación y registro de cotizaciones BSH
+    Version: 1.0
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Tags: Registro de cotizaciones
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap');
+:root {
+    /** Fuentes **/
+    --fuente-principal: "Raleway", sans-serif;
+    --fuente-headings: "Staatliches", sans-serif;
+
+    /** Colores **/
+    --primario: #0050d8;
+    --gris-oscuro: #2f2e2e;
+    --gris-claro: #ebebeb;
+    --blanco: #fff;
+    --negro: #000;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /*10px = 1rem*/
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    font-family: var(--fuente-principal);
+    font-size: 1.8rem;
+    line-height: 2;
+}
+/** Headings **/
+h1, h2, h3, h4 {
+    font-family: var(--fuente-headings);
+    margin: 5rem 0;
+    line-height: 1.2;
+}
+h1 {
+    font-size: 6rem;
+}
+h2 {
+    font-size: 4.8rem;
+}
+h3 {
+    font-size: 3.6rem;
+}
+
+/** Globales **/
+
+p {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+hr {
+    border: 1px solid var(--gris-claro);
+}
+.contenedor {
+    width: min(95%, 120rem);
+    margin: 0 auto;
+}
+.contenido-centrado {
+    width: min(95%, 80rem);
+
+}
+
+/** Utilidades **/
+.text-center {
+    text-align: center;
+}
+.text-primary {
+    color: var(--primario);
+}
+.texto-blanco {
+    color: var(--blanco);
+}
+.seccion  {
+    padding: 5rem 0;
+}
+/** Header **/
+.header {
+    background-color: var(--gris-claro);
+    padding: 2rem 0;
+}
+.logo img {
+    width: 25rem;
+}
+.barra-navegacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width: 768px) {
+    .barra-navegacion {
+        
+        flex-direction: row;
+       justify-content: space-between;
+    }
+}
+/* .menu-principal {
+    display: none;
+}*/
+@media (min-width: 768px) {
+    .menu-principal {
+        display: block;
+    }
+    .menu-principal .menu {
+        display: flex;
+    }
+}
+.menu-principal a {
+    font-family: var(--fuente-headings);
+    display: block;
+    text-align: center;
+    color: var(--primario);
+    font-size: 2.2rem;
+    padding: .5rem 2rem;
+}
+.menu-principal .current_page_item {
+    border-bottom: 3px solid var(--gris-oscuro);
+}
+/**Footer**/
+.footer {
+    background-color: var(--gris-claro);
+}
+.contenido-footer {
+    padding: 4rem 0;
+}
+@media (min-width: 768px) {
+    .contenido-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.footer .menu-principal a {
+text-align: center;
+font-size: 2.4rem;
+padding: 0 1rem;
+}
+
+.copyright {
+    text-align: center;
+    font-family: var(--fuente-headings);
+    font-size: 1.8rem;
+    margin: 2rem 0 0 0;
+    color: var(--primario);
+}
+@media (min-width: 768px) {
+    .copyright {
+       font-size: 2.4rem;
+       margin: 0;
+      
+    }
+}
+/*Estilo al Formulario*/
+
+/* Estilos generales para el formulario */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las etiquetas */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilos para los campos de entrada */
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el botón de enviar */
+input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos adicionales para mejorar la legibilidad y apariencia */
+.body-formulario {
+    font-family: 'Arial', sans-serif;
+    background-color: #ecf0f1;
+    color: #333;
+}
+
+h2 {
+    color: #3498db;
+}
+
+/* Media queries para hacer el formulario responsivo */
+@media only screen and (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+
+    input, select, textarea {
+        padding: 10px;
+        margin-bottom: 12px;
+    }
+
+    input[type="submit"] {
+        padding: 10px 15px;
+    }
+}
+
+/*Formulario final*/
+
+/* Estilos para el contenedor principal del formulario */
+.contenedor-form-final {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos para el contenido del formulario */
+.site-content-fin {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px; /* Espacio entre columnas */
+    max-width: 800px; /* Ajusta según tu preferencia */
+    margin: 20px; /* Ajusta según tu preferencia */
+}
+
+/* Estilos para los párrafos dentro del contenido */
+.site-content-fin p {
+    margin: 0;
+    padding: 5px;
+}
+
+/* Estilos para el contenido del formulario */
+.site-content-fin {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px; /* Espacio entre columnas */
+    max-width: 800px; /* Ajusta según tu preferencia */
+    margin: 20px; /* Ajusta según tu preferencia */
+}
+
+/* Estilos para los párrafos dentro del contenido */
+.site-content-fin p {
+    margin: 0;
+    padding: 10px; /* Aumenta o disminuye según tu preferencia */
+    border-bottom: 1px solid #ddd; /* Línea inferior entre filas */
+}
+
+/* Estilo adicional para la última fila para evitar una línea inferior innecesaria */
+.site-content-fin p:last-child {
+    border-bottom: none;
+}
+
+/* Estilos adicionales para resaltar las filas */
+.site-content-fin p:nth-child(even) {
+    background-color: #f9f9f9; /* Fondo alternativo para resaltar filas pares */
+}
+
+.site-content-fin p:nth-child(odd) {
+    background-color: #ffffff; /* Fondo alternativo para resaltar filas impares */
+}
+
+
+
+/*Documento Cotización PDF
+body .cotizacion-body { 
+    margin: 0; padding: 0; 
+    background-color: var(--blanco);
+ 
+}
+.contacto li {
+    line-height: 1.2;
+    font-size: 10.67px;
+    font-weight: bold;
+    font-family: 'Calibri', sans-serif;
+    text-align: center;
+    
+}
+.contacto li:first-child {
+    font-size: 12px;
+  
+}
+/*
+.encabezado img {
+    height: 62.72px; /* o cualquier otro valor según tus necesidades 
+    width: 170.92px;
+}
+/*
+.logo {
+    border: 2px solid #000; 
+            padding: 10px;
+}
+.logo li {
+    font-size: 8px;
+    line-height: 1.6;
+    font-weight: normal;
+}
+.logo li:last-child {
+    font-size: 9.33px;
+}
+
+.titulo-ref h2{
+    font-size: 15px;
+    font-style: italic;
+    margin: 0 3rem;
+    color: #000;
+    font-weight: normal;
+    border: 2px solid #000; /* Puedes ajustar el grosor y el color del borde según tus necesidades 
+    padding: 10px 80px;
+}
+.titulo-ref ul {
+    margin: 2rem 0;
+   
+}
+.titulo-ref li {
+    text-align: left;
+}
+.fecha {
+    font-size: 8.72px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.fecha .espacios {
+    margin-right: 35rem;
+}
+.fecha span {
+    border-bottom: 1px solid black;
+    padding: 0 5rem;
+}
+/*
+.cliente {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 6.5pt;
+    font-weight: bold;
+    letter-spacing: .7px; 
+}
+
+.cliente span {
+    border-bottom: .5px solid black;
+    padding: 0 5rem;
+}
+.cliente .nombre-cliente {
+    margin-right: 15rem;
+}
+
+.email {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 6.5pt;
+    font-weight: bold;
+    letter-spacing: .7px; 
+}
+
+.email span {
+    border-bottom: .5px solid black;
+    padding: 0 7rem;
+    margin-bottom: 15px; /* Ajusta la posición del subrayado 
+
+}
+.email .nombre-email {
+    margin-right: 8rem;
+}
+.cliente, .email {
+    margin-bottom: -2px; /* Ajusta el espacio entre las tablas 
+}
+.producto {
+    margin-top: 2rem;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 6.5pt;
+}
+
+/* Estilos para la tabla 
+.producto {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.producto th, .producto td {
+    border: 1px solid black;
+    padding: 8px; /* Ajusta el espaciado interno de las celdas 
+}
+
+/* Ajustes adicionales según tus necesidades 
+.producto th {
+    background-color: #f2f2f2; /* Color de fondo para las celdas de encabezado 
+}
+
+.producto th:nth-child(3),
+.producto td:nth-child(3) {
+    max-width: 200px; /* Ajusta el ancho máximo según sea necesario */
+ /*   word-wrap: break-word; /* Permite que el texto se divida en varias líneas si es necesario  
+}
