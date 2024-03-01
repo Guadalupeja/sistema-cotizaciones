@@ -19,6 +19,7 @@ $correo = isset($_POST['correo']) ? sanitize_email($_POST['correo']) : '';
 $telefono = isset($_POST['telefono']) ? sanitize_text_field($_POST['telefono']) : '';
 $ubicacion = isset($_POST['ubicacion']) ? sanitize_text_field($_POST['ubicacion']) : '';
 $moneda = isset($_POST['moneda']) ? sanitize_text_field($_POST['moneda']) : '';
+$moneda_prov = isset($_POST['moneda_prov']) ? sanitize_text_field($_POST['moneda_prov']) : '';
 $tiempo_entrega = isset($_POST['tiempo_entrega']) ? sanitize_text_field($_POST['tiempo_entrega']) : '';
 $condiciones_pago = isset($_POST['condiciones_pago']) ? sanitize_text_field($_POST['condiciones_pago']) : '';
 $vigencia = isset($_POST['vigencia']) ? sanitize_text_field($_POST['vigencia']) : '';
@@ -39,14 +40,14 @@ global $wpdb; // Accede a la instancia global de la clase wpdb
 $query = $wpdb->prepare("
     INSERT INTO wpxm_cotizaciones (
         fecha, compania, vendedor, folio, cliente, contacto, correo, telefono, ubicacion,
-        moneda, tiempo_entrega, condiciones_pago, vigencia, nota_1, nota_2, nota_3, nota_4, firma, costoEnvio, sumaSubtotal,
+        moneda, moneda_prov, tiempo_entrega, condiciones_pago, vigencia, nota_1, nota_2, nota_3, nota_4, firma, costoEnvio, sumaSubtotal,
         sumaIVA, sumaTotal
     ) VALUES (
-        %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %f, %f, %f, 
+        %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %f, %f, %f, 
         %f
     )
 ", $fecha, $compania, $vendedor, $folio, $cliente, $contacto, $correo, $telefono, $ubicacion,
-$moneda, $tiempo_entrega, $condiciones_pago, $vigencia, $nota_1, $nota_2, $nota_3, $nota_4, $firma,
+$moneda, $moneda_prov, $tiempo_entrega, $condiciones_pago, $vigencia, $nota_1, $nota_2, $nota_3, $nota_4, $firma,
 $costoEnvio, $sumaSubtotal, $sumaIVA, $sumaTotal);
 
 // Ejecutar la consulta de inserción de la cotización

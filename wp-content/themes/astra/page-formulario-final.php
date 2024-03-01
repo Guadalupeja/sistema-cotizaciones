@@ -22,6 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_cotizacion']))
     $folio = sanitize_text_field($_POST['folio']);
     $cliente = sanitize_text_field($_POST['cliente']);
     $moneda = sanitize_text_field($_POST['moneda']);
+    $moneda_prov = sanitize_text_field($_POST['moneda_prov']);
     $contacto = sanitize_text_field($_POST['contacto']);
     $correo = sanitize_email($_POST['correo']);
     $telefono = sanitize_text_field($_POST['telefono']);
@@ -79,6 +80,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_cotizacion']))
         
             if (isset($moneda)) {
                 echo '<p>Moneda: ' . '<strong>' . esc_html($moneda) . '</strong></p>';
+            } 
+            if (isset($moneda_prov)) {
+                echo '<p>Moneda proveedor: ' . '<strong>' . esc_html($moneda_prov) . '</strong></p>';
             } 
 
             if (isset($tiempo_entrega)) {
@@ -212,6 +216,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_cotizacion']))
     <input type="hidden" name="telefono" value="<?php echo $telefono; ?>">
     <input type="hidden" name="ubicacion" value="<?php echo $ubicacion; ?>">
     <input type="hidden" name="moneda" value="<?php echo $moneda; ?>">
+    <input type="hidden" name="moneda_prov" value="<?php echo $moneda_prov; ?>">
+
     <input type="hidden" name="sumaSubtotal" value="<?php echo $sumaSubtotal; ?>">
     <input type="hidden" name="sumaIVA" value="<?php echo $sumaIVA; ?>">
 

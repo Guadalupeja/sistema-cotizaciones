@@ -101,8 +101,16 @@ function obtener_siguiente_folio() {
 
                     
                     <div class="campos">
-                    <label for="moneda">Moneda:</label>
+                    <label for="moneda">Moneda Cliente:</label>
                     <select id="moneda" name="moneda" required>
+                        <option value="USD">USD</option>
+                        <option value="MXN">MXN</option>
+                    </select>
+                    </div>
+
+                    <div class="campos">
+                    <label for="moneda_prov">Moneda Proveedor:</label>
+                    <select id="moneda_prov" name="moneda_prov" required>
                         <option value="USD">USD</option>
                         <option value="MXN">MXN</option>
                     </select>
@@ -151,7 +159,7 @@ function obtener_siguiente_folio() {
 
                     
 
-                    <div></div>
+                
                     <h2>Producto</h2>
                     <div></div>
                     
